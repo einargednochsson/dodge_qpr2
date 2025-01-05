@@ -1,11 +1,12 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 11 (CPH2449_15.0.0.820(EX01)).
+## are from OnePlus 13 (PJZ110_15.0.0.502(CN01)).
 
 abl.img;AB
 aop.img;AB
 aop_config.img;AB
 bluetooth.img;AB
 cpucp.img;AB
+cpucp_dtb.img;AB
 devcfg.img;AB
 dsp.img;AB
 engineering_cdt.img;AB
@@ -16,9 +17,15 @@ keymaster.img;AB
 modem.img;AB
 oplus_sec.img;AB
 oplusstanvbk.img;AB
+pdp.img;AB
+pdp_cdb.img;AB
+pvmfw.img;AB
 qupfw.img;AB
 shrm.img;AB
+soccp_dcd.img;AB
+soccp_debug.img;AB
 splash.img;AB
+spuservice.img;AB
 tz.img;AB
 uefi.img;AB
 uefisecapp.img;AB
