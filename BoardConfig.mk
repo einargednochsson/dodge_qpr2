@@ -10,7 +10,7 @@ include device/oneplus/sm8750-common/BoardConfigCommon.mk
 DEVICE_PATH := device/oneplus/dodge
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP5D0DL1
+TARGET_OTA_ASSERT_DEVICE := OP5D0DL1,OP5D55L1
 
 # Display
 TARGET_SCREEN_DENSITY := 480

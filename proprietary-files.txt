@@ -1,9 +1,8 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 13 (PJZ110_15.0.0.502(CN01)).
+## are from OnePlus 13 (CPH2653_15.0.0.405(EX01)).
 
 # ACDB
 odm/etc/acdbdata/FTM/acdb_cal.acdb
-odm/etc/acdbdata/MOS/acdb_cal.acdb
 odm/etc/acdbdata/acdb_cal.acdb
 odm/etc/acdbdata/up_ve_enpuv5_ha.eai
 odm/etc/acdbdata/up_ve_enpuv5_hh.eai
@@ -161,8 +160,6 @@ odm/firmware/uff_spi.mdt
 odm/etc/sensor/config/dodge_qrd_ois_system.json
 odm/etc/sensor/config/json_list
 odm/etc/sensor/config/lux_aod.json
-odm/etc/sensor/config/oplus_flight_detect.json
-odm/etc/sensor/config/oplus_rotation_detect.json
 odm/etc/sensor/config/pakala_mtp_ak09919.json
 odm/etc/sensor/config/pakala_mtp_alsps.json
 odm/etc/sensor/config/pakala_mtp_alsps_hw_tcs3720.json
@@ -319,7 +316,15 @@ odm/etc/vibrator/9999/soft/effect_8.bin
 odm/etc/vibrator/vibrator_effect.json
 
 # WiFi
+odm/etc/wifi/peach/bdwlan.b0a
+odm/etc/wifi/peach/bdwlan.b0c
+odm/etc/wifi/peach/bdwlan.b0e
+odm/etc/wifi/peach/bdwlan.b0i
 odm/etc/wifi/peach/bdwlan.elf
+odm/etc/wifi/peach/bdwlang.b0a
+odm/etc/wifi/peach/bdwlang.b0c
+odm/etc/wifi/peach/bdwlang.b0e
+odm/etc/wifi/peach/bdwlang.b0i
 odm/etc/wifi/peach/bdwlang.elf
 odm/etc/wifi/peach/regdb.bin
 odm/etc/wifi/peach/regdb_version
