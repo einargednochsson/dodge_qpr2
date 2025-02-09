@@ -81,6 +81,23 @@ odm/etc/camera/settings_fdc_lite.txt
 # Camera firmware
 odm/firmware/tof8801_firmware.bin
 
+# Charger firmware
+#odm/firmware/fastchg/23821/charging_hyper_mode_config.txt
+#odm/firmware/fastchg/23821/single_charging_hyper_mode_config.txt
+odm/firmware/fastchg/23893/charging_hyper_mode_config.txt
+odm/firmware/fastchg/23893/single_charging_hyper_mode_config.txt
+odm/firmware/fastchg/batt_dchg_ctrl_config_table.txt
+odm/firmware/fastchg/batt_eis_config.txt
+odm/firmware/fastchg/batt_si_loss_config_table.txt
+odm/firmware/fastchg/bms_heating_config.txt
+odm/firmware/fastchg/charge_time_config.csv
+odm/firmware/fastchg/charging_thermal_config_default.txt
+odm/firmware/fastchg/silicon_p_770_batt_dchg_ctrl_config_table.txt
+odm/firmware/fastchg/silicon_p_770_batt_eis_config.txt
+odm/firmware/fastchg/silicon_p_770_batt_si_loss_config_table.txt
+odm/firmware/fastchg/silicon_p_770_smart_chg_config_table.txt
+odm/firmware/fastchg/smart_chg_config_table.txt
+
 # Display calibration data
 odm/etc/display/qdcm_calib_data_AA545_P_3_A0005_dsc_cmd_mode_panel.json
 odm/etc/display/qdcm_calib_data_AA569_P_3_A0019_dsc_cmd_mode_panel.json
