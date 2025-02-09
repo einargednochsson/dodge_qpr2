@@ -82,10 +82,10 @@ odm/etc/camera/settings_fdc_lite.txt
 odm/firmware/tof8801_firmware.bin
 
 # Charger firmware
-#odm/firmware/fastchg/23821/charging_hyper_mode_config.txt
-#odm/firmware/fastchg/23821/single_charging_hyper_mode_config.txt
 odm/firmware/fastchg/23893/charging_hyper_mode_config.txt
+odm/firmware/fastchg/23893/charging_hyper_mode_config.txt:odm/firmware/fastchg/23821/charging_hyper_mode_config.txt
 odm/firmware/fastchg/23893/single_charging_hyper_mode_config.txt
+odm/firmware/fastchg/23893/single_charging_hyper_mode_config.txt:odm/firmware/fastchg/23821/single_charging_hyper_mode_config.txt
 odm/firmware/fastchg/batt_dchg_ctrl_config_table.txt
 odm/firmware/fastchg/batt_eis_config.txt
 odm/firmware/fastchg/batt_si_loss_config_table.txt
