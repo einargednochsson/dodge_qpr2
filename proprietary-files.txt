@@ -2,8 +2,7 @@
 ## are from OnePlus 13 (CPH2653_15.0.0.405(EX01)).
 
 # ACDB
-odm/etc/acdbdata/FTM/acdb_cal.acdb
-odm/etc/acdbdata/acdb_cal.acdb
+odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb
 odm/etc/acdbdata/up_ve_enpuv5_ha.eai
 odm/etc/acdbdata/up_ve_enpuv5_hh.eai
 
