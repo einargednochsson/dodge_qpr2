@@ -31,6 +31,10 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# PowerShare
+PRODUCT_PACKAGES += \
+    vendor.lineage.powershare-service.oplus
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
