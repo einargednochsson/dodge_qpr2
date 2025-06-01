@@ -23,8 +23,8 @@ PRODUCT_MODEL := CPH2653
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi-user 15 AP3A.240617.008 1736263629283 release-keys" \
-    BuildFingerprint=OnePlus/CPH2653EEA/OP5D55L1:15/AP3A.240617.008/V.R4T3.1c0bb8c-55cf-20dbb:user/release-keys \
+    BuildDesc="qssi_64-user 15 AP3A.240617.008 1745592424563 release-keys" \
+    BuildFingerprint=OnePlus/CPH2653EEA/OP5D55L1:15/AP3A.240617.008/V.R4T3.1d90fa8_1-18562:user/release-keys \
     DeviceName=OP5D55L1 \
     DeviceProduct=CPH2653 \
     SystemDevice=OP5D55L1 \
