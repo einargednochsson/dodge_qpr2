@@ -25,6 +25,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += CONFIG_DODGE_DTB=y
 TARGET_POWERHAL_MODE_EXT_LIB := power-ext-oplus
 
 # Properties
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
