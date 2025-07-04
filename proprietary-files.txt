@@ -172,6 +172,9 @@ odm/firmware/uff_spi.b07
 odm/firmware/uff_spi.b08
 odm/firmware/uff_spi.mdt
 
+# Sensors
+vendor/lib64/sensors.qsh.so
+
 # Sensors config
 odm/etc/sensor/config/dodge_qrd_ois_system.json
 odm/etc/sensor/config/json_list
