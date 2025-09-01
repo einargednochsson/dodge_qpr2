@@ -24,10 +24,8 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
-    (
-        'odm/firmware/fastchg/23821/charging_hyper_mode_config.txt',
-        'odm/firmware/fastchg/23821/single_charging_hyper_mode_config.txt',
-    ): blob_fixup().regex_replace(r"(PROJECT:=)23893", r"\g<1>23821"),
+    'odm/firmware/fastchg/23821/charging_hyper_mode_config.txt': blob_fixup()
+        .regex_replace(r"(PROJECT:=)23893", r"\g<1>23821"),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V5-ndk.so', 'android.hardware.graphics.common-V6-ndk.so'),
     (

@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 13 (CPH2653_15.0.0.840(EX01)).
+## are from OnePlus 13 (CPH2653_15.0.0.850(EX01)).
 
 # ACDB
 odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb
@@ -1297,8 +1297,6 @@ vendor/firmware/CAMERA_ICP_170.elf
 # Charger firmware
 odm/firmware/fastchg/23893/charging_hyper_mode_config.txt
 odm/firmware/fastchg/23893/charging_hyper_mode_config.txt:odm/firmware/fastchg/23821/charging_hyper_mode_config.txt
-odm/firmware/fastchg/23893/single_charging_hyper_mode_config.txt
-odm/firmware/fastchg/23893/single_charging_hyper_mode_config.txt:odm/firmware/fastchg/23821/single_charging_hyper_mode_config.txt
 odm/firmware/fastchg/batt_dchg_ctrl_config_table.txt
 odm/firmware/fastchg/batt_eis_config.txt
 odm/firmware/fastchg/batt_si_loss_config_table.txt
