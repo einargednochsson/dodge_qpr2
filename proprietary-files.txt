@@ -1383,6 +1383,10 @@ odm/firmware/uff_spi.b07
 odm/firmware/uff_spi.b08
 odm/firmware/uff_spi.mdt
 
+# NFC
+odm/etc/nfc/libnfc-mtp-SN220.conf_23821:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-nci.conf_23821:vendor/etc/libnfc-nci.conf
+
 # Sensors
 vendor/lib64/sensors.qsh.so
 
