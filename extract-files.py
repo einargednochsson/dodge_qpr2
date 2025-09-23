@@ -43,6 +43,11 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_lockPlanes')
         .clear_symbol_version('AHardwareBuffer_release')
         .clear_symbol_version('AHardwareBuffer_unlock'),
+    'vendor/etc/libnfc-nci.conf': blob_fixup()
+        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
+    'vendor/etc/libnfc-nxp.conf': blob_fixup()
+        .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
+        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     (
         'vendor/lib64/camera/components/com.qti.node.dewarp.so',
         'vendor/lib64/hw/com.qti.chi.override.so',
