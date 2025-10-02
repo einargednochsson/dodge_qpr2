@@ -6,6 +6,10 @@ odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb
 odm/etc/acdbdata/up_ve_enpuv5_ha.eai
 odm/etc/acdbdata/up_ve_enpuv5_hh.eai
 
+# Audio
+odm/lib64/liboprec_audrec.so
+odm/lib64/liboprec_audrec_wrapper.so
+
 # Audio configs
 odm/etc/mixer_paths.xml
 odm/etc/resourcemanager.xml
