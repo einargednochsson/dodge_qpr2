@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 13 (CPH2653_16.0.0.210(EX01)).
+## are from OnePlus 13 (CPH2653_16.0.1.304(EX01)).
 
 # ACDB
 odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb
@@ -944,7 +944,8 @@ odm/lib64/libc++_shared.so
 odm/lib64/libcam.odnn.interface.so
 odm/lib64/libcam.oplus.3a.v2.so
 odm/lib64/libcam.oplus.3a.v3.so
-odm/lib64/libcam.oplus.3a.v4.so
+odm/lib64/libcreateFDCLitecachebin.so
+odm/lib64/libcreateFDCcachebin.so
 odm/lib64/libcreatebin.so
 odm/lib64/libcreatebinForBaseretouch.so
 odm/lib64/libcreatebinForFaceretouch.so
@@ -1557,6 +1558,7 @@ odm/etc/vibrator/9999/def/effect_310.bin
 odm/etc/vibrator/9999/def/effect_315.bin
 odm/etc/vibrator/9999/def/effect_316.bin
 odm/etc/vibrator/9999/def/effect_318.bin
+odm/etc/vibrator/9999/def/effect_362.bin
 odm/etc/vibrator/9999/def/effect_363.bin
 odm/etc/vibrator/9999/def/effect_364.bin
 odm/etc/vibrator/9999/def/effect_365.bin
@@ -1608,6 +1610,7 @@ odm/etc/vibrator/9999/soft/effect_310.bin
 odm/etc/vibrator/9999/soft/effect_315.bin
 odm/etc/vibrator/9999/soft/effect_316.bin
 odm/etc/vibrator/9999/soft/effect_318.bin
+odm/etc/vibrator/9999/soft/effect_362.bin
 odm/etc/vibrator/9999/soft/effect_363.bin
 odm/etc/vibrator/9999/soft/effect_364.bin
 odm/etc/vibrator/9999/soft/effect_4.bin
